@@ -18,9 +18,11 @@ public enum BingoTiles {
     CHEEP_CHEEP,
     PIRANHA_PLANT,
     HAMMER_BRO,
-    MOLE,
+    MONTY_MOLE,
+    ROCKY_WRENCH,
     THOWMP,
     BUZZY_BEETLE,
+    BLOOPER,
     GOOMBA {
         @Override
         public String toString() {
@@ -43,10 +45,12 @@ public enum BingoTiles {
     //Environment (Hazardous)
     SPIKE,
     MUNCHER,
-    SAW,
+    GRINDER,
     FIRE_BAR,
     CANNON,
     LAVA_BUBBLE,
+    SKEWER,
+    BURNERS,
 
     //Environment (Non-Hazardous)
     P_SWITCH,
@@ -56,12 +60,20 @@ public enum BingoTiles {
     VINE,
     RED_COINS,
     POW,
-    FALLING_PLATFORM,
+    LIFTS,
     MUSIC_BLOCK,
-    DONUTS,
+    DONUT_BLOCK,
+    BUMPER,
     SKULL_RAFT,
     KEY_DOOR,
+    P_DOOR,
     BLIND_JUMP,
+    HIDDEN_BLOCK,
+    ONE_WAY,
+    SOUND_EFFECTS,
+    TRACKS,
+    CONVEYOR,
+    SHOE,
 
     // Friendly Helpers
     YOSHI,
@@ -70,7 +82,13 @@ public enum BingoTiles {
     PROPELLER_CAP,
     STAR,
     LANKY_MARIO,
-    COSTUME,
+    MYSTERY_MUSHROOM,
+    ONE_UP_MUSHROOM{
+        @Override
+        public String toString() {
+            return "1-UP MUSHROOM";
+        }
+    },
     LEAF_FEATHER {
         @Override
         public String toString() {
@@ -83,9 +101,11 @@ public enum BingoTiles {
     MAZE,
     PUZZLE,
     AUTO_SCROLL,
-    AIR_SHIP,
-    UNDERGROUND,
-    CASTLE,
+    AIR_SHIP_THEME,
+    UNDERWATER_THEME,
+    GHOST_HOUSE_THEME,
+    SOFT_LOCK,
+    CUSTOM_LEVEL_MUSIC,
     PICK_A_PIPE_DOOR {
         @Override
         public String toString() {
