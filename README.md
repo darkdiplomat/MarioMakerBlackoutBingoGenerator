@@ -7,7 +7,7 @@ Generates a random bingo card for use with Bingosync (https://bingosync.com/) wi
 REQUIRES JAVA 8
 
 ## Usage ##
-just run the program to output a random card or use java -jar blackoutbingo.jar <seed> to create a card based on a seed
+just run the program to output a random card or use java -jar blackoutbingo.jar [seed] to create a card based on a seed
 
 ## Sample Output ##
 Using seed SpaceKatUniverse<br>
