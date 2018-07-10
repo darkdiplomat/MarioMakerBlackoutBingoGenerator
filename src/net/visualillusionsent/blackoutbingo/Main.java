@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.*;
 
+import static java.lang.Math.abs;
+
 /**
  * Super Mario Maker Blackout Bingo Random Card Generator
  * Concept created by SpaceKatUniverse
@@ -16,24 +18,24 @@ public class Main {
     private static final Random rng = new Random();
 
     public static void main(String[] args) {
-        long seed;
+        long seed = -1;
         // For those that want to specify a seed
         if(args.length > 0) {
             try {
                 // check if the seed is numeric already
-                seed = Long.parseLong(args[0]);
+                seed = abs(Long.parseLong(args[0]));
                 rng.setSeed(seed);
             }
             catch (NumberFormatException nfex){
                 // Not numeric, convert to hash
-                seed = args[0].hashCode();
+                seed = abs(args[0].hashCode());
                 rng.setSeed(seed);
             }
         }
         // No seed specified
         else {
             // generate a random seed
-            seed = rng.nextLong();
+            seed = abs(rng.nextLong());
             // reapply our random seed
             rng.setSeed(seed);
         }
