@@ -1,4 +1,4 @@
-## Mario Maker Blackout Bingo Generator ##
+# Mario Maker Blackout Bingo Generator #
 Super Mario Maker Blackout Bingo random card generator. 
 Concept by SpaceKatUniverse - https://www.twitch.tv/spacekatuniverse
 
@@ -6,10 +6,10 @@ Generates a random bingo card for use with Bingosync (https://bingosync.com/) wi
 
 REQUIRES JAVA 8
 
-# Usage #
+## Usage ##
 just run the program to output a random card or use java -jar blackoutbingo.jar <seed> to create a card based on a seed
 
-# Sample Output #
+## Sample Output ##
 Using seed SpaceKatUniverse<br>
 [<br>
 {"name": "KEY DOOR"},<br>
