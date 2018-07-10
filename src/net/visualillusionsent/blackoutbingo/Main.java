@@ -14,6 +14,7 @@ import static java.lang.Math.abs;
  * @author Jason Jones (darkdiplomat)
  */
 public class Main {
+    private static final String VERSION = "1.0.0";
     private static final String goal = "{\"name\": \"%s\"},";
     private static final Random rng = new Random();
 
@@ -48,6 +49,9 @@ public class Main {
         // Prepare to console output
         PrintStream console = System.out;
         // Grab the first 25 and log what they were
+        console.println("Super Mario Maker Blackout Bingo Card Generator v1.0.0");
+        console.println("Concept by SpaceKatUniverse");
+        console.println("Program created by: DarkDiplomat");
         console.println("Picking 25 of a possible " + generator.size());
         console.println("[");
         for(int index = 0; index < 25; index++) {
