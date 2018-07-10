@@ -49,7 +49,7 @@ public class Main {
         // Prepare to console output
         PrintStream console = System.out;
         // Grab the first 25 and log what they were
-        console.println("Super Mario Maker Blackout Bingo Card Generator v1.0.0");
+        console.println("Super Mario Maker Blackout Bingo Card Generator v"+VERSION);
         console.println("Concept by SpaceKatUniverse");
         console.println("Program created by: DarkDiplomat");
         console.println("Picking 25 of a possible " + generator.size());
