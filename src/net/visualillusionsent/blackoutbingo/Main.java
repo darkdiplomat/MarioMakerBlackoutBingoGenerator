@@ -14,7 +14,7 @@ import static java.lang.Math.abs;
  * @author Jason Jones (darkdiplomat)
  */
 public class Main {
-    private static final String VERSION = "1.0.0";
+    private static final String VERSION = "1.0.1";
     private static final String goal = "{\"name\": \"%s\"},";
     private static final Random rng = new Random();
 

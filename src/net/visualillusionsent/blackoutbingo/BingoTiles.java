@@ -23,6 +23,8 @@ public enum BingoTiles {
     THOWMP,
     BUZZY_BEETLE,
     BLOOPER,
+    SPIKE_TOP,
+    SPINY,
     GOOMBA {
         @Override
         public String toString() {
@@ -33,12 +35,6 @@ public enum BingoTiles {
         @Override
         public String toString() {
             return "BOB-OMB";
-        }
-    },
-    SPIKE_TOP {
-        @Override
-        public String toString() {
-            return "SPIKE TOP/SPINY";
         }
     },
 
@@ -104,12 +100,17 @@ public enum BingoTiles {
     AIR_SHIP_THEME,
     UNDERWATER_THEME,
     GHOST_HOUSE_THEME,
-    SOFT_LOCK,
     CUSTOM_LEVEL_MUSIC,
+
+    // Other
+    SOFT_LOCK,
+    FORCED_YOSHI_KILL,
+    JEBAITED,
     PICK_A_PIPE_DOOR {
         @Override
         public String toString() {
             return "PICK A PIPE/DOOR";
         }
     },
+
 }
